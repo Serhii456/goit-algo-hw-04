@@ -10,7 +10,7 @@ def get_cats_info(path):
         cat_info = {
           "id": cat_id,
           "name": cat_name,
-          "age": int(cat_age)
+          "age": cat_age
         }
         cats_info.append(cat_info)
   except FileNotFoundError:
